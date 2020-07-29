@@ -7,7 +7,7 @@ nonpaid developer untuk mengambil tweet hingga satu minggu ke belakang.
 
 ## Deskripsi data
 
-Setiap file merupakan file dalam format .csv dengan header {id} dan isinya berupa id tweet. 
+Setiap file merupakan file dalam format .csv dengan tanpa header dan isinya berupa id tweet. 
 Informasi seluruh tweet tidak dipublikasi untuk memenuhi 
 [Terms of Service Twitter](https://developer.twitter.com/en/developer-terms/agreement-and-policy).
 
