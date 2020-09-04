@@ -36,3 +36,6 @@ semua tweet yang sesuai kriteria pada hari sebelumnya. Berikut adalah langkah sc
 3. Pada setiap iterasi, tweet id di-append ke satu file.
 4. Setelah proses scraping selesai (pada kondisi iterasi mengembalikan 0 tweet), 
 file di-commit dan di-push ke repository GitHub.
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
