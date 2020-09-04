@@ -19,8 +19,8 @@ merupakan hasil dari eksplorasi terms dan hashtags yang banyak muncul di dataset
 yang sebelumnya pernah dikumpulkan oleh PanaceaLab ([http://www.panacealab.org/covid19/]()) namun 
 dengan keyword bahasa Inggris. Setelah ditemukan keyword dan hashtag yang paling banyak muncul di 
 dataset tersebut, didefinisikan keyword dan hashtag baru yang relevan dengan situasi pandemi COVID-19
-di Indonesia (misal: 'pandemi', 'penyebaran', '#dirumahaja'). Secara total, diperoleh 25 gabungan keyword
-dan hashtag dari eksplorasi dataset tersebut.
+di Indonesia (misal: 'pandemi', 'penyebaran', '#dirumahaja'). Secara total, diperoleh 21 keyword untuk
+dijadikan sebagai keyword.
 
 ## Hydrating
 
