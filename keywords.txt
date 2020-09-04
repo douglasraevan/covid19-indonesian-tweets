@@ -1,40 +1,21 @@
-#covid19
-#coronavirus
-#viruscorona
-#newnormal
-#stayathome
-#corona
-#dirumahaja
-#kitajagakita
-#stayhome
-#covid
-#bersatucegahcovid19
-#covid-19
-#staysafe
-#covid_19
-#lawancovid19
-#dudukrumah
-#bersatucekalcovid19
-#covid19indonesia
-#psbb
-#jagajarak
+newnormal
+stayathome
+dataterbarucorona
+dirumahaja
+covid
+"protokol kesehatan"
+"face mask"
+jagajarak
 pandemi
-covid19
 penyebaran
 coronavirus
-protokol
 corona
-virus
-pasien
-kesehatan
-penanganan
 masker
-terdampak
-gugus tugas
 wabah
 pencegahan
-sembuh
-jaga jarak
 psbb
-terdampak
-sehat
+"jaga jarak"
+"kebiasaaan baru"
+"kasus positif"
+"new normal"
+kebiasaanbaru
