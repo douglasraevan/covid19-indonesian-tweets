@@ -8,7 +8,6 @@ covid
 jagajarak
 pandemi
 penyebaran
-coronavirus
 corona
 masker
 wabah
@@ -19,3 +18,4 @@ psbb
 "kasus positif"
 "new normal"
 kebiasaanbaru
+vaksin
