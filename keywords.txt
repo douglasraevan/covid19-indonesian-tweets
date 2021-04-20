@@ -12,7 +12,7 @@ corona
 masker
 wabah
 pencegahan
-psbb
+ppkm
 "jaga jarak"
 "kebiasaaan baru"
 "kasus positif"
