@@ -1,5 +1,7 @@
 # covid19-indonesian-tweet
 
+Status: **DISCONTINUED**
+
 Repository ini berisi kumpulan tweet yang berkaitan dengan COVID-19 sebagai bagian dari 
 riset saya pada topik Social Media Analytics. Data yang tersedia untuk sementara waktu 
 hanya dimulai dari tanggal 21 Juli 2020 akibat limit API Twitter yang hanya memperbolehkan 
