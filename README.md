@@ -1,4 +1,4 @@
-# covid19-indonesian-tweet
+# covid19-indonesian-tweets
 
 Status: **DISCONTINUED**
 
