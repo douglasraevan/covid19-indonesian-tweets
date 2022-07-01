@@ -2,42 +2,81 @@
 
 Status: **DISCONTINUED**
 
+## English
+
+This repository consists of a collection of Indonesian tweets related to COVID-19 as part of our research project. The collection started from July 21, 2020.
+
+### Paper
+
+This collection is a part of our paper in which the preprint can be accessed on https://arxiv.org/abs/2206.15359. Please cite this paper accordingly if you plan to use this dataset for your publications.
+
+### Data Description
+
+Each file is a comma-separated-values (CSV) file without header and contains a set of Tweet IDs. We only publish the tweet IDs to abide by the [Twitter's Terms of Service](https://developer.twitter.com/en/developer-terms/agreement-and-policy)
+
+### Collected Tweet Criteria
+
+The collected tweets fulfill a set of criteria, which are:
+- Written in Indonesian
+- Not a retweet (we aim for organic tweets)
+- Contains at least one of the defined [COVID-19 keywords](./keywords.txt)
+
+### How to Use
+
+Following Twitter API's developer policy, we only publish the tweet IDs. *Hydrating* the tweet ID with the full data can be done by using available tools such as DocNow's hydrator (https://github.com/DocNow/hydrator) or by directly retrieving the data from Twitter API.
+
+### How to Cite
+
+#### Bibtex
+
+```
+@misc{faisal2022twostage,
+      title={Two-Stage Classifier for COVID-19 Misinformation Detection Using BERT: a Study on Indonesian Tweets}, 
+      author={Douglas Raevan Faisal and Rahmad Mahendra},
+      year={2022},
+      eprint={2206.15359},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+
+## Indonesian
+
 Repository ini berisi kumpulan tweet yang berkaitan dengan COVID-19 sebagai bagian dari 
-riset saya pada topik Social Media Analytics. Data yang tersedia untuk sementara waktu 
-hanya dimulai dari tanggal 21 Juli 2020 akibat limit API Twitter yang hanya memperbolehkan 
-nonpaid developer untuk mengambil tweet hingga satu minggu ke belakang.
+riset kami. Data yang tersedia dimulai dari tanggal 21 Juli 2020.
 
-## Deskripsi data
+### Deskripsi data
 
-Setiap file merupakan file dalam format .csv dengan tanpa header dan isinya berupa id tweet. 
+Setiap file merupakan file dalam format .csv dengan tanpa header dan isinya berupa ID tweet. 
 Informasi seluruh tweet tidak dipublikasi untuk memenuhi 
 [Terms of Service Twitter](https://developer.twitter.com/en/developer-terms/agreement-and-policy).
 
-## Kriteria tweet
+### Kriteria tweet
 
-Tweet yang dikumpulkan harus teridentifikasi sebagai tweet berbahasa Indonesia dan bukan merupakan retweet. 
-Selain itu, tweet juga memenuhi salah satu dari [keyword](./keywords.txt). Keywords yang digunakan 
-merupakan hasil dari eksplorasi terms dan hashtags yang banyak muncul di dataset tweet berbahasa Indonesia
-yang sebelumnya pernah dikumpulkan oleh PanaceaLab ([http://www.panacealab.org/covid19/]()) namun 
-dengan keyword bahasa Inggris. Setelah ditemukan keyword dan hashtag yang paling banyak muncul di 
-dataset tersebut, didefinisikan keyword dan hashtag baru yang relevan dengan situasi pandemi COVID-19
-di Indonesia (misal: 'pandemi', 'penyebaran', '#dirumahaja'). Secara total, diperoleh 21 keyword untuk
-dijadikan sebagai keyword.
+Tweet yang dikumpulkan memenuhi sekumpulan kriteria sebagai berikut:
+- Ditulis dalam Bahasa Indonesia
+- Bukan merupakan retweet (kami menargetkan *organic tweets*)
+- Mengandung setidaknya salah satu [keyword COVID-19](./keywords.txt)
 
-## Hydrating
+### Cara menggunakan data
 
-Untuk memperoleh data lengkap untuk setiap tweetnya, gunakan software Hydrator yang tersedia dalam 
-format [GUI](https://github.com/DocNow/hydrator) dan [CLI (Python)](https://github.com/DocNow/twarc).
+Mengikuti developer policy milik Twitter API, kami hanya menerbitkan atribut tweet ID saja. Untuk memperoleh atribut lainnya dari sebuah tweet (atau yang dikenal dengan *hydrating*), Anda bisa menggunakan DocNow hydrator (https://github.com/DocNow/hydrator) atau dengan mengambil langsung melalui Twitter API.
 
-## Metode scraping
+### Sitasi
 
-Scraper dijalankan secara berkala setiap harinya pada dini hari di Azure VM. Scraper akan mengumpulkan
-semua tweet yang sesuai kriteria pada hari sebelumnya. Berikut adalah langkah scrapingnya:
-1. Membuat koneksi ke API Twitter melalui AppAuth menggunakan Consumer Key dan Consumer Secret (dapat diperoleh di [https://developer.twitter.com/])
-2. Melakukan scraping tweet secara iteratif (100 tweet/iterasi).
-3. Pada setiap iterasi, tweet id di-append ke satu file.
-4. Setelah proses scraping selesai (pada kondisi iterasi mengembalikan 0 tweet), 
-file di-commit dan di-push ke repository GitHub.
+#### Bibtex
+
+```
+@misc{faisal2022twostage,
+      title={Two-Stage Classifier for COVID-19 Misinformation Detection Using BERT: a Study on Indonesian Tweets}, 
+      author={Douglas Raevan Faisal and Rahmad Mahendra},
+      year={2022},
+      eprint={2206.15359},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
